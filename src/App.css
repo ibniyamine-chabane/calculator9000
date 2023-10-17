@@ -1,9 +1,9 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
 
 .logo {
   height: 6em;
@@ -16,6 +16,66 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.calculator {
+  width: 303px;
+  margin: auto;
+  padding: 26px;
+  border: 1px solid;
+  border-radius: 9px;
+  background-color: lightsteelblue;
+}
+
+.buttonBox {
+  display: flex;
+  width: 655px;
+  
+}
+
+.equalButton {
+  width: 78px;
+  margin: 2px;
+  background-color: darkorange;
+}
+
+.numButton {
+  display: flex;
+  width: 38%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.operatorBox {
+  width: 48px;
+}
+
+.operatorBox button {
+  margin: 2px;
+  background-color: chartreuse;
+}
+
+.num_width {
+  /* width: 78px; */
+  margin: 2px;
+  background-color: blue;
+  color: white;
+}
+
+.screen {
+  border: 1px solid;
+  width: 300px;
+  height: 70px;
+}
+
+.operation {
+  border: 1px solid;
+  height: 26px;
+}
+
+.result {
+  border: 1px solid;
+  height: 38px;
 }
 
 @keyframes logo-spin {
