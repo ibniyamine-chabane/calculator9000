@@ -1,8 +1,8 @@
-function BeautifulScreen({operation, result}) {
+function BeautifulScreen({operation, opResult}) {
     return (
         <>
             <div className="operation"><p>{operation}</p></div>
-            <div className="result"><p>{result}</p></div>
+            <div className="result"><p>{opResult}</p></div>
         </>
     );
 } 

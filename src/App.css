@@ -68,14 +68,27 @@
   height: 70px;
 }
 
+.screen div {
+  margin: 1px 0px;
+}
+
+.screen p {
+  margin: inherit;
+  margin-bottom: 0px;
+  margin-top: 3px;
+  text-align: right;
+}
+
 .operation {
   border: 1px solid;
   height: 26px;
+  width: 98%;
 }
 
 .result {
   border: 1px solid;
   height: 38px;
+  width: 98%;
 }
 
 @keyframes logo-spin {

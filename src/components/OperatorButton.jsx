@@ -1,9 +1,9 @@
-function OperatorButton({OperatorClick}) {
+function OperatorButton({handleClickOperator}) {
     const operators = [..."/*-+"];
 
     return (
         <>
-            <p>{operators.map((operator, index) => <button key={index} onClick={(e) => e.OperatorClick} value={operator}>{operator}</button>)}</p>
+            <p>{operators.map((operator, index) => <button key={index} onClick={handleClickOperator} value={operator}>{operator}</button>)}</p>
         </>
     );
 } 
