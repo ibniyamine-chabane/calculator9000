@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+
+@font-face {
+  font-family: digit;
+  src: url(font/DS-DIGIB.TTF);
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -22,7 +27,7 @@
   width: 303px;
   margin: auto;
   padding: 26px;
-  border: 1px solid;
+  border: 3px solid;
   border-radius: 9px;
   background-color: lightsteelblue;
 }
@@ -63,9 +68,13 @@
 }
 
 .screen {
-  border: 1px solid;
+  border: 5px solid lightcyan;
   width: 300px;
   height: 70px;
+  font-family: digit;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
 }
 
 .screen div {
@@ -80,15 +89,16 @@
 }
 
 .operation {
-  border: 1px solid;
+  /* border: 1px solid; */
   height: 26px;
   width: 98%;
 }
 
 .result {
-  border: 1px solid;
+  /* border: 1px solid; */
   height: 38px;
   width: 98%;
+  font-size: 30px;
 }
 
 @keyframes logo-spin {

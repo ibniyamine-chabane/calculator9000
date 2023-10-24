@@ -7,7 +7,7 @@ import { useState } from "react";
 function Calculator() {
 
     const [result, setResult] = useState(0);
-    const [operation, setOperation] = useState(0);
+    const [operation, setOperation] = useState("");
     
     const handleClickNumber = (e) => {
         console.log(e.target.value)
