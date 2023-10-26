@@ -16,19 +16,18 @@ function Calculator() {
     }
 
     const handleSetResult = (newValue) => {
-        setResult(eval(newValue))
+        if (result > 9000) {
+            setResult("it's over 9000")
+            setTimeout(() => {
+                setResult(result);
+            }, 1000)
+        } else {
+            setResult(eval(newValue))
+        }
     }
 
     const handleClickOperator = (e) => {
         setOperation(operation + e.target.value)
-    }
-
-    const equalClick = (e) => {
-
-        if (result > 9000) {
-            setResult("It's over 9000")
-        }
-        setResult(eval(operation))
     }
 
     return (
